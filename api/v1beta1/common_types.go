@@ -30,7 +30,7 @@ type KubernetesConfig struct {
 	SecurityContext   *corev1.PodSecurityContext   `json:"securityContext,omitempty"`
 }
 
-// Storage is the inteface to add pvc and pv support in MongoDB
+// Storage is the inteface to add pvc and pv support
 type Storage struct {
 	AccessModes      []corev1.PersistentVolumeAccessMode `json:"accessModes,omitempty" protobuf:"bytes,1,rep,name=accessModes,casttype=PersistentVolumeAccessMode"`
 	StorageClassName *string                             `json:"storageClass,omitempty" protobuf:"bytes,5,opt,name=storageClassName"`

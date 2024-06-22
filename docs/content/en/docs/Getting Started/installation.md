@@ -98,7 +98,7 @@ $ kubectl apply -f https://github.com/OT-CONTAINER-KIT/logging-operator/blob/mai
 As last part of the setup, now we can deploy the Logging Operator as deployment of Kubernetes.
 
 ```shell
-# Deployment for MongoDB Operator
+# Deployment for logging Operator
 $ kubectl apply -f https://github.com/OT-CONTAINER-KIT/logging-operator/raw/main/config/manager/manager.yaml
 ```
 

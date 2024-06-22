@@ -36,7 +36,7 @@ $ make manager
 go build -o bin/manager main.go
 ```
 
-MongoDB operator gets packaged as a container image for running on the Kubernetes cluster.
+Logging operator gets packaged as a container image for running on the Kubernetes cluster.
 
 ```shell
 $ make docker-build
